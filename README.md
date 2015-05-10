@@ -1,2 +1,0 @@
-# ProjectSchool
-My first Project
