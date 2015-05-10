@@ -7,81 +7,25 @@ Ps: This Project is made by a student
 
 # Using the program
 
-Benvenuto Utente in ProjectSchool
-Questo è il pannello principale;
-da qui poi controlare i tuoi voti e gestire
-la tua situazione scolastica
-Main Page 
- -Queste sono le tue materie:
-1  --->  Italiano
-2  --->  Chimica
-3  --->  Storia
-Seleziona la materia per vedere i voti: 2
-Ecco i voti di Chimica -->
-7.0 7.5 6.0 
+>>>Benvenuto Utente in ProjectSchool\n
+Questo è il pannello principale;\n
+da qui poi controlare i tuoi voti e gestire\n
+la tua situazione scolastica\n
+Main Page \n
+ -Queste sono le tue materie:\n
+1  --->  Italiano\n
+2  --->  Chimica\n
+3  --->  Storia\n
+Seleziona la materia per vedere i voti: 2\n
+Ecco i voti di Chimica -->\n
+7.0 7.5 6.0 \n
 
-la tua media in Chimica -->
-6.83
+la tua media in Chimica -->\n
+6.83\n
 
-Premio INVIO per riavviare
-Premi 0 per uscire
-Premi 2 per aggiungere voti
-Premi 3 per rimuovere un voto
--->digita: 2
-
-
-Aggiungi voto/i
-1  --->  Italiano
-2  --->  Chimica
-3  --->  Storia
-seleziona una materia per aggiungere un voto/i: 2
-digita il tuo voto/i: 5
-sei sicuro di voler aggiungere questo voto/i: si
-un voto/i aggiunto
-
-Main Page 
- -Queste sono le tue materie:
-1  --->  Italiano
-2  --->  Chimica
-3  --->  Storia
-Seleziona la materia per vedere i voti: 2
-Ecco i voti di Chimica -->
-7.0 7.5 6.0 5.0 
-
-la tua media in Chimica -->
-6.38
-
-Premio INVIO per riavviare
-Premi 0 per uscire
-Premi 2 per aggiungere voti
-Premi 3 per rimuovere un voto
--->digita: 3
-
-
-Rimuovi voto/i
-1  --->  Italiano
-2  --->  Chimica
-3  --->  Storia
-seleziona una materia per rimuovere un voto: 2
-Ecco i voti di Chimica -->
-7.0 7.5 6.0 5.0 
-digita il voto da levare: 5
-un voto/i rimosso
-
-Main Page 
- -Queste sono le tue materie:
-1  --->  Italiano
-2  --->  Chimica
-3  --->  Storia
-Seleziona la materia per vedere i voti: 2
-Ecco i voti di Chimica -->
-7.0 7.5 6.0 
-
-la tua media in Chimica -->
-6.83
-
-Premio INVIO per riavviare
-Premi 0 per uscire
-Premi 2 per aggiungere voti
-Premi 3 per rimuovere un voto
--->digita: 0
+Premio INVIO per riavviare\n
+Premi 0 per uscire\n
+Premi 2 per aggiungere voti\n
+Premi 3 per rimuovere un voto\n
+-->digita: 0\n
+>>>
