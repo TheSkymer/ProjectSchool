@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 #importo moduli
 import sys
  
