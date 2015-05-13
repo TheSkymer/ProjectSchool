@@ -1,4 +1,5 @@
 #-*- coding: UTF-8 -*-
+#!/home/andrea
 #importo moduli
 import sys
  
@@ -97,9 +98,6 @@ def rimuovi_voto(n,voto, m_voti):
         with open(m_voti, 'w') as file_voti:
             for riga in linee_voti:
                 file_voti.write(riga)
-        print('un voto/i rimosso')
-    else:
-        print('nessun voto rimosso')
 
 #menu delle modalità selezionate dopo il menu principale
 def menu_modalità(modalità):
@@ -142,7 +140,6 @@ while 1:
             print_marks('main', n)        
     except:
         print(sys.exc_info())
-        print('')
     print('')
     uscita = input(mod)
     if uscita == "0" :
@@ -171,10 +168,12 @@ while 1:
                 print('')
                 voto_da_levare = input('digita il voto da levare: ')
                 rimuovi_voto(n, voto_da_levare, m_voti)
-                print('')
+               	print('un voto rimosso')
+		print('')
         except IndexError:
             print('La materia immessa non esiste!')
         except:
             print(sys.exc_info())
+            print('nessun voto rimosso')
             print('')
             

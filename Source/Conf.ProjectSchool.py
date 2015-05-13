@@ -1,4 +1,5 @@
 #Conf for ProjectSchool  
+#!/home/andrea
 percorso_file = {1 : 'materie.txt', 2 : 'voti.txt'}
 conf = open(percorso_file[1], 'w')  
 voti = open(percorso_file[2],'w')  
