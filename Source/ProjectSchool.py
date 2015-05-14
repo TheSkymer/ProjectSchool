@@ -132,15 +132,15 @@ print(pres)
  
 while 1:
     print('Main Page','\n',"-Queste sono le tue materie:")
-    stampa_materie(configura_mat()) 
+    stampa_materie(configura_mat())
     n = input("Seleziona la materia per vedere i voti: ")
     try:
         n = int(n)
         with open('voti.txt', 'r') as file_voti:
-            print_marks('main', n)        
+            print_marks('main', n)
     except:
         print(sys.exc_info())
-    print('')
+        print('')
     uscita = input(mod)
     if uscita == "0" :
         sys.exit()
@@ -168,8 +168,7 @@ while 1:
                 print('')
                 voto_da_levare = input('digita il voto da levare: ')
                 rimuovi_voto(n, voto_da_levare, m_voti)
-               	print('un voto rimosso')
-		print('')
+                print('un voto rimosso')
         except IndexError:
             print('La materia immessa non esiste!')
         except:
