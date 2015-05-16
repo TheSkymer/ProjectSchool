@@ -5,12 +5,9 @@ import sys
  
 #scrittura di presentazione file
  
-pres = '''Benvenuto Utente in ProjectSchool
-Questo è il pannello principale;
-da qui poi controlare i tuoi voti e gestire
-la tua situazione scolastica'''
+pres = 'Benvenuto Utente in ProjectSchool'
 
-mod = '''Premio INVIO per riavviare\nPremi 0 per uscire\nPremi 2 per aggiungere voti
+mod = '''\nPremio INVIO per riavviare\nPremi 0 per uscire\nPremi 2 per aggiungere voti
 Premi 3 per rimuovere un voto\n-->digita: '''
  
 #definisco funzioni
@@ -101,7 +98,6 @@ def rimuovi_voto(n,voto, m_voti):
 
 #menu delle modalità selezionate dopo il menu principale
 def menu_modalità(modalità):
-    print('\n')
     if modalità == '3':
         print('Rimuovi voto/i')
     elif modalità == '2':
